@@ -7,6 +7,7 @@ def analyze_movies(movies):
     print("Movie Titles:", [movie['title'] for movie in movies])
 
     print("............................................................................")
+      print("............................................................................")
 
     print("\nChristopher Nolan Movies:", [movie['title'] for movie in movies if (movie['director']['first_name'], movie['director']['last_name']) == ('Christopher', 'Nolan')])
     
