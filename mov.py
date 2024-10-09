@@ -15,7 +15,7 @@ def analyze_movies(movies):
     
     print("\nMovies Released After 2000:", [movie['title'] for movie in movies if movie['year'] > 2000])
 
-    print("............................................................................")
+    print("............................................................................"""""""""""")
     
     genres = set(genre for movie in movies for genre in movie['genres'])
     print("\nUnique Genres:", genres)
