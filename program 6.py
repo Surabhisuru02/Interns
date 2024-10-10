@@ -36,4 +36,4 @@ print(q1)
 print('\n 2. Probability of HeartDisease given evidence= cholestrol ')
 q2=HeartDiseasetest_infer.query(variables=['heartdisease'],evidence={'cholestrol':int(input("Enter Cholestrol"))})
 print(q2)
-
+deeksha
